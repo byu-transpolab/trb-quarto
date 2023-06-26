@@ -178,7 +178,7 @@
     \vskip 3em%
     {\large
      \lineskip .75em%
-      \begin{tabular}[t]{l}%
+      \begin{tabular}[t]{c}%
         \@author
       \end{tabular}\par}%
       \vskip 1.5em%
@@ -369,21 +369,21 @@
       \titlepage
       \null\vfil
       \@beginparpenalty\@lowpenalty
-      \begin{center}%
+      %
         \bfseries \abstractname
         \@endparpenalty\@M
-      \end{center}}%
+      }%
      {\par\vfil\null\endtitlepage}
 \else
   \newenvironment{abstract}{%
       \if@twocolumn
         \section*{\abstractname}%
       \else
-        \small
-        \begin{center}%
+        %
           {\bfseries \abstractname\vspace{-.5em}\vspace{\z@}}%
-        \end{center}%
-        \quotation
+          \newline
+          \newline
+        %
       \fi}
       {\if@twocolumn\else\endquotation\fi}
 \fi
