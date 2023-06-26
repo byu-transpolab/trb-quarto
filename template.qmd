@@ -27,6 +27,9 @@ abstract: |
   This document is only a demo explaining how to use the template.
 keywords: [template, demo]
 reference-section-title: References
+date: 08/01/2023
+wordcount: 5234
+tablecount: 1
 bibliography: bibliography.bib  
 ---
 

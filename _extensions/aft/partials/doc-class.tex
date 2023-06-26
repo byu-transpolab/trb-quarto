@@ -32,3 +32,20 @@ $endfor$
 \usepackage[pagewise]{lineno}
 \linenumbers
 \usepackage{newtxtext}
+
+
+\makeatletter
+\newcounter{wordcounter}
+\setcounter{wordcounter}{$wordcount$}
+
+\newcounter{tablecounter}
+\setcounter{tablecounter}{$tablecount$}
+
+\newcounter{totalwordcounter}
+\newcommand{\totalwordcount}{%
+  \setcounter{totalwordcounter}{$wordcount$}
+  \addtocounter{totalwordcounter}{\numexpr250*$tablecount$}
+  \number\value{totalwordcounter}% Output the number
+	\renewcommand{\totalwordcount}{\number\value{totalwordcounter}}
+}
+\makeatother

@@ -247,6 +247,7 @@
         \@author
       \end{tabular}\par}%
     \vskip 1em%
+    {\large Word count: \arabic{wordcounter} words and \arabic{tablecounter} tables = \totalwordcount total words\par}
     {\large \@date}%
   %
   \par
