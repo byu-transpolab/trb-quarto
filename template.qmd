@@ -1,25 +1,28 @@
 ---
-title: "Demo aft format to use as template"
+title: "Demo TRB Article to use as template"
 format:
   aft-pdf:
     keep-tex: true  
   aft-html: default
 author:
   - name: John Doe
+    corresponding: true
     affiliations:
-      - name: Dummy org
+      - name: State University
         department: Cool Dep
         address: Somewhere
         city: Magic city
         country: best one
         postal-code: 9999
-      - Demo Journal
     orcid: 0000-0000-0000-0000
     email: JD@example.org
     url: https://example.org/
-  - name: his friend
+    note: Assistant Professor
+  - name: Emma Student
     affiliations:
-      - Another Affiliation
+      - State University
+    email: 
+    position: Student
 abstract: |
   This document is only a demo explaining how to use the template.
 keywords: [template, demo]

@@ -173,17 +173,17 @@
   \let \footnote \thanks
   \null\vfil
   \vskip 60\p@
-  \begin{center}%
+  %
     {\LARGE \@title \par}%
     \vskip 3em%
     {\large
      \lineskip .75em%
-      \begin{tabular}[t]{c}%
+      \begin{tabular}[t]{l}%
         \@author
       \end{tabular}\par}%
       \vskip 1.5em%
     {\large \@date \par}%       % Set date in \large size.
-  \end{center}\par
+  \par
   \@thanks
   \vfil\null
   \end{titlepage}%
@@ -237,18 +237,18 @@
   \newpage
   \null
   \vskip 2em%
-  \begin{center}%
+  %
   \let \footnote \thanks
     {\LARGE \@title \par}%
     \vskip 1.5em%
     {\large
       \lineskip .5em%
-      \begin{tabular}[t]{c}%
+      \begin{tabular}[t]{l}%
         \@author
       \end{tabular}\par}%
     \vskip 1em%
     {\large \@date}%
-  \end{center}%
+  %
   \par
   \vskip 1.5em}
 \fi
