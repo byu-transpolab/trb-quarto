@@ -1,9 +1,11 @@
 ---
-title: "Demo TRB Article to use as template"
+# The title should have the first letter of each word capitalized, 
+# except for conjunctions, prepositions, and articles
+title: "Demo TRB Article to use as Template"
 format:
-  aft-pdf:
+  trb-pdf:
     keep-tex: true  
-  aft-html: default
+  trb-html: default
 author:
   - name: John Doe
     corresponding: true
