@@ -38,10 +38,11 @@ contributes:
         # Add here the resources required for the PDF rendering
         - aft.cls
         - te.bst
+      papersize: letter
     html:
       # define default configuration for the html version of your format
       number-sections: true
-      toc: true
+      toc: false
       theme: custom.scss
       # Use a CSL file to style (https://www.zotero.org/styles/)
       csl: https://www.zotero.org/styles/journal-of-institutional-and-theoretical-economics
