@@ -32,6 +32,7 @@ contributes:
         \definecolor{mypink}{RGB}{219, 48, 122}
       template-partials:
         # Add here the partials your format is using
+        - "partials/doc-class.tex"
         - "partials/title.tex"
         - "partials/_authors.tex"
       format-resources:
